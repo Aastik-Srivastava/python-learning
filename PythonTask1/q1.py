@@ -1,10 +1,9 @@
 n =int(input("enter number of strings - "))
-print(n)
 ls =[]
 dict ={}
 i =0
 while i <n:
-    ls.append(str(input()))
+    ls.append(str(input()).lower())
     i = i+1
 for x in ls:
     for y in x:
